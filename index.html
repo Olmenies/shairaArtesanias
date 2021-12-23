@@ -4,72 +4,142 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta charset="UTF-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Artesanias Shaira - Inicio</title>
 </head>
 <body>
 	<header>
-		<img class="header__img" src="images/shariaLogo.jpg" alt="">
-		<h1 class="header__titulo">Shaira Artesanías</h1>
-		<nav class="header__navbar">
-			<ul class="header__navbar__lista">
-				<li class="header__navbar__item"><a class="header__navbar__anchor" href="#">Inicio</a></li>
-				<li class="header__navbar__item"><a class="header__navbar__anchor" href="">Nosotros</a></li>
-				<li class="header__navbar__item"><a class="header__navbar__anchor" href="">Catálogo</a></li>
-				<li class="header__navbar__item"><a class="header__navbar__anchor" href="">Preguntas Frecuentes</a></li>
-				<li class="header__navbar__item"><a class="header__navbar__anchor" href="">Contacto</a></li>
-			</ul>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img class="rounded-circle" src="images/shairaLogo.jpg" alt="" width="100" height="100"></a>
+				<h1>Shaira Artesanías</h1>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+					<ul class="navbar-nav align-items-center">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="views/nosotros.html">Nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Catálogo</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Preguntas</a>
+						</li>
+						 <li class="nav-item">
+							<a class="nav-link" href="#">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
-		<div class="header__redes">
-			<ul class="header__redes__lista">
-				<li class="header__redes__item"><a class="header__redes__item__anchor" href="">Instagram</a></li>
-				<li class="header__redes__item"><a class="header__redes__item__anchor" href="">Facebook</a></li>
-				<li class="header__redes__item"><a class="header__redes__item__anchor" href="">Gmail</a></li>
-				<li class="header__redes__item"><a class="header__redes__item__anchor" href="">WhatsApp</a></li>
-			</ul>
-		</div>
 	</header>
-	<body>
-		<div class="main__container__slides"><img class="main__container__img" src="" alt=""></div>
-		<section class="main__container">
-			<img class="main__container__img0" src="images/shariaEspejo.jpg" alt="">
-			<p class="main__container__parrafo0">Amet sint veritatis facilis perspiciatis voluptas Reiciendis explicabo excepturi ab repellendus eligendi Culpa enim unde est pariatur cupiditate, fugit Quidem officia in adipisci qui reiciendis porro quis Nulla iusto ut veritatis facere qui, reprehenderit numquam Esse vero nobis expedita exercitationem similique! Ex consequuntur quasi error beatae eveniet! Laboriosam error harum!</p>
-			<img class="main__container__img1" src="images/shariaLampara.jpg" alt="">
-			<p class="main_container_parrafo1">Sit animi assumenda magni sapiente tempora Itaque adipisci cupiditate voluptatibus eveniet quia doloribus Nihil dolorum ipsum voluptatibus ad officiis Vitae exercitationem quaerat officia ut quae, minima. Cumque expedita amet architecto illo consequuntur Nulla cupiditate eius doloremque quasi quam reprehenderit Commodi ipsa quaerat ipsa soluta non totam Labore excepturi dolor quos.</p>
-			<img class="main__container__img2" src="" alt="">
-			<p class="main__container__p2">Consectetur natus consequuntur laborum quidem tempore. Quasi autem culpa blanditiis ratione placeat Eligendi nulla sit perspiciatis asperiores alias eos corporis? Nemo placeat laboriosam dolor non autem? Dolorem libero deserunt ad ipsum saepe quasi eaque, aut. Nobis ipsam nulla at amet quis Distinctio optio recusandae asperiores non eos ut omnis. Dolores</p>
-		</section>
-		<div class="main__carrusel">
-			<img class="main__carrusel__img" src="" alt="">
-			<img class="main__carrusel__img" src="" alt="">
-			<img class="main__carrusel__img" src="" alt="">
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div id="myCarouselControls" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner main__carousel__container">
+						<div class="carousel-item active">
+							<img src="images/shairaCuenco.jpg" class="d-block w-100 myFit" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="images/shairaCuenco2.jpg" class="d-block w-100 myFit" alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div> <!-- fin del carrusel -->
+			</div> <!-- fin de la row -->
+		</div> <!-- fin del container -->
+		<div class="container">
+			<div class="row text-center mt-5">
+				<div class="col-md-4">
+					<h4>Titular</h4>
+					<p>
+						Ipsum velit natus beatae sint possimus. Inventore autem harum dolore facilis reiciendis ullam nisi. Recusandae delectus vero excepturi expedita incidunt
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h4>Titular</h4>
+					<p>
+						Amet eligendi modi quo quasi repudiandae Quis perferendis tempora rerum sint quisquam. Adipisci dolorem iure sequi harum nostrum, tempora. Illum
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h4>Titular</h4>
+					<p>
+						Sit laboriosam nobis in quis quas facilis iusto Quis id exercitationem rem iusto officia voluptatum Dolorum ipsum fuga debitis vitae!
+					</p>
+				</div>
+			</div>
 		</div>
-	</body>
+		<div class="container-fluid mt-5" id="index__container__cartas">
+			<div class="row d-flex justify-content-around mt-5">
+				<div class="card col-md-4 mt-5 mb-5 index__carta" style="width: 18rem;">
+					<img class="card-img-top imagenCardInicio" src="images/shairaGato.jpg" alt="Card image cap">
+					<div class="card-body text-center">
+						<a class="index__carta__link mt--5" href="#">Hola</a>
+					</div>
+				</div> <!-- fin de la card -->
+				<div class="card col-md-4 mt-5 mb-5 index__carta" style="width: 18rem;">
+					<img class="card-img-top imagenCardInicio" src="images/shairaVenecitas.jpg" alt="Card image cap">
+					<div class="card-body text-center">
+						<a class="index__carta__link" href="">Dame</a>
+					</div>
+				</div> <!-- fin de la card -->
+				<div class="card col-md-4 mt-5 mb-5 index__carta" style="width: 18rem;">
+					<img class="card-img-top imagenCardInicio" src="images/shairaEspejo2.jpg" alt="Card image cap">
+					<div class="card-body text-center">
+						<a class="index__carta__link" href="">Bola</a>
+					</div>
+				</div> <!-- fin de la card -->
+			</div>
+		</div>
+	</main>
 	<footer>
-		<div class="footer__descripcion">
-			<h5 class="footer__descripcion__titulo">Shaira Artesanías</h5>
-			<img class="footer__descripcion__img" src="images/shariaLogo.jpg" alt="">
-			<p class="footer__descripcion__parrafo">Dolor sunt fugiat dignissimos eveniet molestias nemo Magnam molestias voluptatibus quam ullam fuga vel. Esse non assumenda soluta eaque ab.</p>
-		</div>
-		<div class="footer__contacto">
-			<h5 class="footer__contacto__titulo">Contacto</h5>
-			<ul class="footer__contacto__lista">
-				<li class="footer__contacto__item"><a href="">Instagram</a></li>
-				<li class="footer__contacto__item"><a href="">Facebook</a></li>
-				<li class="footer__contacto__item"><a href="">Gmail</a></li>
-				<li class="footer__contacto__item"><a href="">WhatsApp</a></li>
-			</ul>
-		</div>
-		<div class="footer__sitemap">
-			<h5 class="footer__sitemap__titulo">Sitemap</h5>
-			<ul class="footer__sitemap__lista">
-				<li class="footer__sitemap__item"><a href="">Inicio</a></li>
-				<li class="footer__sitemap__item"><a href="">Nosotros</a></li>
-				<li class="footer__sitemap__item"><a href="">Catálogo</a></li>
-				<li class="footer__sitemap__item"><a href="">Preguntas Frecuentes</a></li>
-				<li class="footer__sitemap__item"><a href="">Contacto</a></li>
-			</ul>
+		<div class="container-fluid mt-5 pt-5">
+			<div class="row text-center">
+				<div class="col-md-6 mb-4">
+					<h5 class="">Shaira Artesanías</h5>
+					<div class="row">
+						<img class="footer__image rounded-circle col-sm-2 col-md-4 align-self-center" src="images/shairaLogo.jpg" alt="">
+						<p class="mt-1 col-md-8">Dolor sunt fugiat dignissimos eveniet molestias nemo Magnam molestias voluptatibus quam ullam fuga vel. Esse non assumenda soluta eaque ab.</p>
+					</div>
+				</div> <!-- fin de la descripción --> 
+				<div class="col-md-3">
+					<h5 class="">Contacto</h5>
+					<ul class="footer__lista">
+						<li class=""><a href="">Instagram</a></li>
+						<li class=""><a href="">Facebook</a></li>
+						<li class=""><a href="">Gmail</a></li>
+						<li class=""><a href="">WhatsApp</a></li>
+					</ul>
+				</div> <!-- fin de contacto -->
+				<div class="col-md-3">
+					<h5 class="">Sitemap</h5>
+					<ul class="footer__lista">
+						<li class=""><a href="#">Inicio</a></li>
+						<li class=""><a href="views/nosotros.html">Nosotros</a></li>
+						<li class=""><a href="">Catálogo</a></li>
+						<li class=""><a href="">Preguntas Frecuentes</a></li>
+						<li class=""><a href="">Contacto</a></li>
+					</ul>
+				</div> <!-- fin del sitemap -->
+			</div>
 		</div>
 	</footer>
+	<!-- SCRIPT DE BOOTSTRAP -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
