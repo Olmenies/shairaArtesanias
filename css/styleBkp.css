@@ -1,0 +1,39 @@
+.main__carousel__container{
+	max-height: 60vh;
+}
+
+.myFit{
+	max-height: 60vh;
+	object-fit: cover;
+}
+
+.footer__image{
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.footer__lista{
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+footer {
+	background-color: tomato;
+}
+
+.imagenCardInicio{
+	height:262px;
+}
+
+#index__container__cartas{
+	background-image: url("../images/shairaBosque.jpg");
+}
+
+.index__carta{
+	background-color: rgba(0,0,0,0);
+}
+
+.index__carta__link{
+	padding: 1rem;
+	background-color: tomato;
+}

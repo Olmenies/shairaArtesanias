@@ -1,43 +1,24 @@
-.main__carousel__container{
-	max-height: 60vh;
-}
+.inicio__carousel__container {
+  max-height: 60vh; }
+  .inicio__carousel__container .inicio__carousel__imagen {
+    max-height: 60vh;
+    object-fit: cover; }
 
-.myFit{
-	max-height: 60vh;
-	object-fit: cover;
-}
+#inicio__container__cartas {
+  background-image: url("../images/shairaBosque.jpg"); }
+  #inicio__container__cartas .inicio__carta {
+    background-color: rgba(0, 0, 0, 0); }
+    #inicio__container__cartas .inicio__carta__imagen {
+      height: 262px; }
+    #inicio__container__cartas .inicio__carta__link {
+      padding: 1rem;
+      background-color: tomato; }
 
-.footer__image{
-	max-height: 100%;
-	object-fit: cover;
-}
-
-.footer__lista{
-	list-style: none;
-	padding-inline-start: 0;
-}
-
-footer {
-	background-color: tomato;
-}
-
-.imagenCardInicio{
-	height:262px;
-}
-
-#navbarMedia{
-	display: none;
-}
-
-#index__container__cartas{
-	background-image: url("../images/shairaBosque.jpg");
-}
-
-.index__carta{
-	background-color: rgba(0,0,0,0);
-}
-
-.index__carta__link{
-	padding: 1rem;
-	background-color: tomato;
-}
+.footer {
+  background-color: tomato; }
+  .footer__image {
+    max-height: 100%;
+    object-fit: cover; }
+  .footer__lista {
+    list-style: none;
+    padding-inline-start: 0; }

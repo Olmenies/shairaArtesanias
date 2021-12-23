@@ -1,0 +1,13 @@
+.footer {
+	background-color: $color-principal;
+	
+	&__image{
+		max-height: 100%;
+		object-fit: cover;
+	}
+
+	&__lista{
+		list-style: none;
+		padding-inline-start: 0;
+	}
+}
