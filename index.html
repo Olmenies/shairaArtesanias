@@ -11,7 +11,7 @@
 <body>
 	<header class="header">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
+			<div class="container-fluid d-flex justify-content-around">
 				<a class="navbar-brand" href="#"><img class="rounded-circle" src="images/shairaLogo.jpg" alt="" width="100" height="100"></a>
 				<h1>Shaira Artesanías</h1>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,14 +31,14 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#">Preguntas</a>
 						</li>
-						 <li class="nav-item">
+						<li class="nav-item">
 							<a class="nav-link" href="#">Contacto</a>
 						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+					</ul> <!-- fin de la lista -->
+				</div> <!-- fin del navbarNav -->
+			</div> <!-- fin del container -->
+		</nav> <!-- fin de la navbar -->
+	</header> <!-- fin del header -->
 	<main class="main">
 		<div class="container-fluid">
 			<div class="row">
@@ -69,21 +69,21 @@
 					<p>
 						Ipsum velit natus beatae sint possimus. Inventore autem harum dolore facilis reiciendis ullam nisi. Recusandae delectus vero excepturi expedita incidunt
 					</p>
-				</div>
+				</div> <!-- fin de la columna -->
 				<div class="col-md-4">
 					<h4>Titular</h4>
 					<p>
 						Amet eligendi modi quo quasi repudiandae Quis perferendis tempora rerum sint quisquam. Adipisci dolorem iure sequi harum nostrum, tempora. Illum
 					</p>
-				</div>
+				</div> <!-- fin de la columna -->
 				<div class="col-md-4">
 					<h4>Titular</h4>
 					<p>
 						Sit laboriosam nobis in quis quas facilis iusto Quis id exercitationem rem iusto officia voluptatum Dolorum ipsum fuga debitis vitae!
 					</p>
-				</div>
-			</div>
-		</div>
+				</div> <!-- fin de la columna -->
+			</div> <!-- fin de la row -->
+		</div> <!-- fin del container -->
 		<div class="container-fluid mt-5" id="inicio__container__cartas">
 			<div class="row d-flex justify-content-around mt-5 inicio__container__cartas__row">
 				<div class="card col-md-4 mt-5 mb-5 inicio__carta" style="width: 18rem;">
@@ -104,41 +104,51 @@
 						<a class="inicio__carta__link" href="">Bola</a>
 					</div>
 				</div> <!-- fin de la card -->
-			</div>
-		</div>
-	</main>
+			</div> <!-- fin de la row -->
+		</div> <!-- fin del container -->
+	</main> <!-- fin del main -->
 	<footer class="footer">
-		<div class="container-fluid mt-5 pt-5">
-			<div class="row text-center">
-				<div class="col-md-6 mb-4">
-					<h5 class="">Shaira Artesanías</h5>
-					<div class="row">
-						<img class="footer__image rounded-circle col-sm-2 col-md-4 align-self-center" src="images/shairaLogo.jpg" alt="">
-						<p class="mt-1 col-md-8">Dolor sunt fugiat dignissimos eveniet molestias nemo Magnam molestias voluptatibus quam ullam fuga vel. Esse non assumenda soluta eaque ab.</p>
-					</div>
-				</div> <!-- fin de la descripción -->
-				<div class="col-md-3">
-					<h5 class="">Contacto</h5>
-					<ul class="footer__lista">
+		<div class="container-fluid mt-5 pt-5"> <!-- contenedor de todo el footer -->
+			<div class="row text-center"> <!-- row de todo el footer -->
+
+				<div class="col-md-6 mb-4"> <!-- columna de descripción -->
+					<div class="row"> <!-- row del título de la descripción -->
+						<h5 class="">Shaira Artesanías</h5>
+					</div> <!-- fin de la row del título de la descripción -->
+					<div class="row d-flex justify-content-around"> <!-- row del contenido de la descripción -->
+						<img class="footer__image rounded-circle col-md-4 align-self-center" src="images/shairaLogo.jpg" alt="">
+						<p class="mt-1 col-md-8 align-self-center">Dolor sunt fugiat dignissimos eveniet molestias nemo Magnam molestias voluptatibus quam ullam fuga vel. Esse non assumenda soluta eaque ab.</p>
+					</div> <!-- fin de la row del contenido de la descripción-->
+				</div> <!-- fin de la columna de descripción -->
+
+				<div class="col-md-3"> <!-- columna del contacto -->
+					<div class="row"> <!-- row del título del contacto -->
+						<h5 class="">Contacto</h5>
+					</div> <!-- fin del row del título del contacto -->
+					<ul class="footer__lista"> <!-- lista de contacto -->
 						<li class=""><a href="">Instagram</a></li>
 						<li class=""><a href="">Facebook</a></li>
 						<li class=""><a href="">Gmail</a></li>
 						<li class=""><a href="">WhatsApp</a></li>
-					</ul>
-				</div> <!-- fin de contacto -->
-				<div class="col-md-3">
-					<h5 class="">Sitemap</h5>
+					</ul> <!-- fin de la lista de contacto -->
+				</div> <!-- fin de la columna de contacto contacto -->
+
+				<div class="col-md-3"> <!-- columna del sitemap -->
+					<div class="row"> <!-- row del título del sitemap -->
+						<h5 class="">Sitemap</h5>
+					</div> <!-- fin de la row del título del sitemap -->
 					<ul class="footer__lista">
 						<li class=""><a href="#">Inicio</a></li>
 						<li class=""><a href="views/nosotros.html">Nosotros</a></li>
 						<li class=""><a href="">Catálogo</a></li>
 						<li class=""><a href="">Preguntas Frecuentes</a></li>
 						<li class=""><a href="">Contacto</a></li>
-					</ul>
+					</ul> <!-- fin de la lista -->
 				</div> <!-- fin del sitemap -->
-			</div>
-		</div>
-	</footer>
+
+			</div> <!-- fin de la row -->
+		</div> <!-- fin del container -->
+	</footer> <!-- fin del footer -->
 	<!-- SCRIPT DE BOOTSTRAP -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

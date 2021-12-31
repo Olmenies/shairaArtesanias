@@ -2,14 +2,16 @@
   background-image: url("../images/shairaBosque.jpg");
   .inicio__carta{
     background-color: rgba(0,0,0,0);
-    
+
     &__imagen{
       height:262px;
+      border-radius: 5%;
     }
 
     &__link{
       padding: 1rem;
       background-color: $color-principal;
+      border-radius: 5%;
     }
   }
 }

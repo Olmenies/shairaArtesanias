@@ -2,3 +2,17 @@
 @import "parcial/inicio__carousel__container";
 @import "parcial/inicio__container__cartas";
 @import "parcial/footer";
+
+.navbar div{
+	background-color: $color-principal;
+}
+
+@media screen and (max-width: 425px ){
+	.navbar div{
+
+	}
+
+	.footer__image {
+		width: 40vh;
+	}
+}
