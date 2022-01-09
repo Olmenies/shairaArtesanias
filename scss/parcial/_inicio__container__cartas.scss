@@ -1,7 +1,10 @@
 #inicio__container__cartas{
   background-image: url("../images/shairaBosque.jpg");
+  opacity: 50%;
+
   .inicio__carta{
     background-color: rgba(0,0,0,0);
+    opacity: 100% !important;
 
     &__imagen{
       height:262px;

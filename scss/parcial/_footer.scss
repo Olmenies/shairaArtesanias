@@ -11,3 +11,15 @@
 		padding-inline-start: 0;
 	}
 }
+
+@media screen and (max-width: 425px){
+	.footer__image {
+		width: 40vh;
+	}
+}
+
+@media screen and (min-width: 1025px){
+	.footer__image{
+		width: 20vh;
+	}
+}
