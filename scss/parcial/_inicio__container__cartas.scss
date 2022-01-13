@@ -1,20 +1,24 @@
 #inicio__container__cartas{
   background-image: url("../images/shairaBosque.jpg");
-  opacity: 50%;
+  opacity: 100%;
 
   .inicio__carta{
     background-color: rgba(0,0,0,0);
-    opacity: 100% !important;
+    transition: filter 0.5s;
 
     &__imagen{
       height:262px;
       border-radius: 5%;
     }
 
-    &__link{
+    &__span{
       padding: 1rem;
       background-color: $color-principal;
       border-radius: 5%;
     }
+  }
+
+  .inicio__carta:hover{
+    filter: brightness(50%);
   }
 }

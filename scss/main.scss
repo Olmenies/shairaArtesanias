@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 @import "parcial/vars";
 @import "parcial/header";
 @import "parcial/inicio__carousel__container";
 @import "parcial/inicio__container__cartas";
+@import "parcial/faqs";
 @import "parcial/footer";
+
+*{
+  font-family: 'Oooh Baby', cursive;
+  font-size: large;
+}
