@@ -2,8 +2,12 @@
   align-items: center;
 }
 
-.faqs{
-  &__imagen{
-    max-width: 100%;
+/*agregamos las imágenes de FAQs*/
+@for $i to 3{
+  .faqs__imagen#{$i}{
+    height: 30vh;
+    width: 30vh;
+    background-image: url(../images/shairaEspejo#{$imagen}.jpg);
+    background-size: cover;
   }
 }
