@@ -1,0 +1,24 @@
+*{
+  font-family: 'Oooh Baby', cursive;
+  font-size: large;
+}
+
+.row{
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary{
+  background-color: $color-principal;
+  border-color: $color-principal;
+}
+
+.btn-primary:hover{
+  background-color: $color-secundario;
+  border-color: $color-secundario;
+}
+
+.btn-primary:visited{
+  background-color: $color-secundario;
+  border-color: $color-secundario;
+}

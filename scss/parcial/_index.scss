@@ -1,3 +1,12 @@
+.inicio__carousel__container{
+	max-height: 60vh;
+
+	.inicio__carousel__imagen{
+		max-height: 60vh;
+		object-fit: cover;
+	}
+}
+
 #inicio__container__cartas{
   background-image: url("../images/shairaBosque.jpg");
   opacity: 100%;
