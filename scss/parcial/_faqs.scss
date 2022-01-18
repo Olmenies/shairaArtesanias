@@ -11,6 +11,11 @@
 }
 
 @media screen and (max-width: 1024px) , (min-width:1944px){
+
+  .faqs__container{
+        overflow-x: hidden; /* sin esto, la animación rompe el width para dispositivos móbiles*/
+  }
+
   .faqs__container .row{
     justify-content: center;
     text-align: center;
